@@ -7,6 +7,7 @@ function selectItem(e) {
     this.classList.add('tab-border');
 }
 
+// Added comment
 function removeBorder(){
     tabItems.forEach(item => item.classList.remove('tab-border'));
 }
